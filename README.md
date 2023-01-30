@@ -52,7 +52,7 @@ python manage.py makemigrations
 python manage.py migrate
 ```
 Hurray !!! All set to run this application in Local
-Now run ```  python manage.py runserver ``` to start local server.
+Now run ```  python manage.py runserver 8080 ``` to start local server.
 go to 
 ```
 http://127.0.0.1:8080/rest/v1/calendar/init/
